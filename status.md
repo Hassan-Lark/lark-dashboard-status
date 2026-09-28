@@ -1,7 +1,7 @@
 # Lark Dashboard - Nightly Sync Report
 
-- **Run (local / ET):** 2026-09-26 21:00
-- **Run (New York):** 2026-09-26 21:00 EDT
+- **Run (local / ET):** 2026-09-27 21:00
+- **Run (New York):** 2026-09-27 21:00 EDT
 - **Outcome:** SUCCESS - refreshed and deployed
 
 ## Summary
@@ -9,14 +9,15 @@
 | Step | Result |
 |---|---|
 | Ticker universe | 18 symbols |
-| Historical prices | 4 rows added - latest 2026-09-26 |
+| Historical prices | 1 rows added - latest 2026-09-27 - 2 ticker(s) with no data: SPN.V, URB.TO |
 | Live prices | 18 symbols refreshed |
 | FX (CAD/USD) | 1 CAD = 0.707 USD (2026-09-25) |
-| Cache stamp | PRELOAD_TS = Sep 26, 2026 9:00 PM |
+| Cache stamp | PRELOAD_TS = Sep 27, 2026 9:00 PM |
 | Deploy | (dashboard deployed) |
 
 _Note: fund NAVs and new transactions are entered manually and are not part of this automated nightly sync - it refreshes market prices, FX, and redeploys the current dashboard._
 
 ## Errors / notes
 
-- None. Clean run.
+- SPN.V: Yahoo reports no price data (possibly delisted / symbol change) - non-fatal, last known price kept
+- URB.TO: Yahoo reports no price data (possibly delisted / symbol change) - non-fatal, last known price kept
