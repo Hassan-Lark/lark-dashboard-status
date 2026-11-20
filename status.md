@@ -1,7 +1,7 @@
 # Lark Dashboard - Nightly Sync Report
 
-- **Run (local / ET):** 2026-11-18 20:00
-- **Run (New York):** 2026-11-18 20:00 EST
+- **Run (local / ET):** 2026-11-19 20:00
+- **Run (New York):** 2026-11-19 20:00 EST
 - **Outcome:** SUCCESS - refreshed and deployed
 
 ## Summary
@@ -9,10 +9,10 @@
 | Step | Result |
 |---|---|
 | Ticker universe | 18 symbols |
-| Historical prices | 18 rows added - latest 2026-11-18 |
+| Historical prices | 17 rows added - latest 2026-11-19 |
 | Live prices | 18 symbols refreshed |
-| FX (CAD/USD) | 1 CAD = 0.698 USD (2026-11-18) |
-| Cache stamp | PRELOAD_TS = Nov 18, 2026 8:00 PM |
+| FX (CAD/USD) | 1 CAD = 0.6985 USD (2026-11-19) |
+| Cache stamp | PRELOAD_TS = Nov 19, 2026 8:00 PM |
 | Deploy | (dashboard deployed) |
 
 _Note: fund NAVs and new transactions are entered manually and are not part of this automated nightly sync - it refreshes market prices, FX, and redeploys the current dashboard._
